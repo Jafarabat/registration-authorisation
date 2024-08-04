@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(145, 163, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login {
+    border: 2px solid aqua;
+    padding: 25px;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.welcome-title{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login-header{
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+}
+
+form{
+    text-align: center;
+}
+
+.create-button{
+    color: grey;
+    text-decoration: none;
+}
+
+.create-button:hover{
+    color: aqua;
+}
+
+.login-form{
+    margin-bottom: 15px;
+}
+
+.login-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    background-color: rgb(145, 163, 190);
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-bottom-color 0.3s;
+}
+
+.login-form input:focus {
+    border-bottom-color: aqua;
+}
+
+.login-form input::placeholder {
+    color: rgb(0, 69, 173);
+}
+
+.login-bttn{
+    font-size: 20px;
+    color: grey;
+    text-decoration: none;
+}
+
+.login-bttn:hover{
+    color: aqua;
+}
+
+.error-notify{
+    text-align: center;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 5px;   
+}
+
+.error-message{
+    color: red;
+}
+

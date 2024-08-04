@@ -1,0 +1,15 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App{
+  width: 800px;
+} */
